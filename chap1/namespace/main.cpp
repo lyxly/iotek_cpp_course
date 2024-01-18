@@ -21,6 +21,7 @@ int main(int argc, char *argv[])
 {
 	using Two::x;
 	cout << x << endl;
+	cout << "y=" <<Two::y<<endl;
 	x = -100;
 	One::inf *= 1;
 	cout << One::inf << endl;
