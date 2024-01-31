@@ -10,7 +10,7 @@ void func()
 	cout << "count = " << count << endl;
 
 }
-
+// g++ *.cpp -o test
 int main(int argc, char *argv[])
 {
 	int count = Martain::getCount();

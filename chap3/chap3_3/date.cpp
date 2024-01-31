@@ -21,3 +21,10 @@ void TDate::Print() const
 	//month = 1;
 	cout << month << "/" << day << "/" << year << endl;
 }
+
+#if 0
+void print(){ // error 这是普通函数，不能访问day，year
+    cout<<month <<"/"<<day<<"/"<<year<<endl;
+}
+#endif
+

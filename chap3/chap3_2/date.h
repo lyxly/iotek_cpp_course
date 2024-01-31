@@ -7,7 +7,7 @@ using namespace::std;
 class TDate{
 public:
 	void set(int m, int d, int y){
-		month = m;
+		month = m; // 不能在month前加对象名
 		day = d;
 		year = y;
 	}

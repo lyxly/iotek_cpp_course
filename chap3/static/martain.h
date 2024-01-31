@@ -11,7 +11,7 @@ class Martain
 		void hide();
 		static int getCount();
 	private:
-		static int martainCount; //定义类的静态成员 
+		static int martainCount; //定义类的静态成员 声明
 		int m_bloodValue;
 };
 

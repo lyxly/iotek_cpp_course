@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 		cout << "john's id " << john.getId() << endl;
 		fun(john);
 		cout << "john's id " << john.getId() << endl;
-	}
+	} // 验证析构函数
 	cout << "return from main" << endl;
 	return 0;
 }
