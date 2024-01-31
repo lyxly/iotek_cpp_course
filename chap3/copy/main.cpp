@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 	foo(joe);
 	cout << "After call of foo" << endl;
 
-	Student tom = bar();
+	Student tom = bar(); // 由于编译器的优化，只会调用构造函数和析构函数，不会调用拷贝构造？
 
 	return 0;
 }
